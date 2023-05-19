@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(54, 52, 73);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #AFA79F;
+    padding: 8px;
+}
+
+nav > a > h1 {
+    color: white;
+    background-color: #696561;
+    border: 3px;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+nav > a > h1:hover {
+    color: white;
+    background-color: #837c76;
+    border: 3px;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+nav > a > h1:active {
+    position: relative;
+    top: 2px;
+    left:2px;
+    color: white;
+    background-color: #857f79;
+    border: 3px;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+nav > a {
+    text-decoration: none;
+}
+
+.transition {
+    width: 100%;
+    height: 15rem;
+    position: relative;
+    background-image: linear-gradient(rgb(54, 52, 73), #505d6d);
+}
+
+.darker {
+    height: 40rem;
+    width: 100%;
+    background-color: #505d6d;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conflictDarker {
+    height: 55rem;
+    width: 100%;
+    background-color: #505d6d;
+    display: block;
+}
+
+.lowerDivs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 65px;
+}
+
+.lowerDivs > h1 {
+    width: 70%;
+    color: white;
+    font-family: 'Wix Madefor Text', cursive;
+}
+
+.lowerDivs > img {
+    width: 15%;
+    color: white;
+    font-family: 'Wix Madefor Text', cursive;
+}
+
+
+.summaryDarker {
+    height: 40rem;
+    width: 100%;
+    background-color: #505d6d;
+}
+
+.mapDarker {
+    height: 100rem;
+    width: 100%;
+    background-color: #505d6d;
+}
+
+.lighter {
+    height: 20rem;
+    width: 100%;
+    background-color: #505d6d;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    position: relative;
+    top: 6rem;
+    height: 40rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mapText {
+    text-align: center;
+}
+
+#leeming {
+    height: 60%;
+    border: 6px inset;
+}
+
+#book {
+    height: 60%;
+}
+
+#centerMap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#contentText {
+    font-size: 5rem;
+    font-family: 'Abril Fatface', cursive;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+#summaryText {
+    width: 80%;
+    color: white;
+    font-family: 'Wix Madefor Text', cursive;
+    display: block;
+    text-align: center;
+}
+
+#citedText {
+    font-size: 7rem;
+    font-family: 'Abril Fatface', cursive;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+#centerText {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#lowerContent {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#lowerImages {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#conflictPic {
+    border: none;
+    height: 60%;
+}
+
+#lowerImagesSummary {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#lowerImagesSummary > img {
+    margin-top: 80px;
+    width: 240px;
+    height: 300px;
+}
+
+#lowerImages > img {
+    height: 20rem;
+}
+
+#mapPic {
+    border: none;
+    height: 60%;
+}
+
+#lowerContent > h1 {
+    font-family: 'Wix Madefor Text', cursive;
+    padding: 15px;
+    border-radius: 5%;
+    color: white;
+}
+
+#worksCitedText {
+    color: white;
+    font-family: 'Wix Madefor Text', cursive;
+}
+
+#mapText {
+    color: white;
+    font-family: 'Wix Madefor Text', cursive;
+}
+
+#mapImgs > img {
+    width: 25rem;
+    height: 25rem;
+    margin-bottom: 80px;
+}
